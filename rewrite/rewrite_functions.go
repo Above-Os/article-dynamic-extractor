@@ -8,8 +8,8 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/Above-Os/article-dynamic-extractor/readability"
 	"github.com/PuerkitoBio/goquery"
-	"github.com/beclab/article-extractor/readability"
 )
 
 var (

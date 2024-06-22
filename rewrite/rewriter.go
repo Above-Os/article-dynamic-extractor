@@ -5,7 +5,7 @@ import (
 	"strings"
 	"text/scanner"
 
-	"github.com/beclab/article-extractor/url"
+	"github.com/Above-Os/article-dynamic-extractor/url"
 )
 
 type rule struct {

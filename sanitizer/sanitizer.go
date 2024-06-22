@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/beclab/article-extractor/url"
+	"github.com/Above-Os/article-dynamic-extractor/url"
 	"golang.org/x/net/html"
 )
 
