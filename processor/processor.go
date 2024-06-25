@@ -17,6 +17,8 @@ func ArticleContentExtractor(pluginsPath, rawContent, entryUrl, feedUrl, rules s
 
 	content := getPluginsContent(pluginsPath, entryUrl, doc)
 	if content == "" {
+		log.Printf(`plugins content is empty!! plugins path:%s ,entry url: %s`, pluginsPath, entryUrl)
+
 		var ruleErr error
 		var rulesDomain string
 		contentRule := rules

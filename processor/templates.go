@@ -13,8 +13,9 @@ import (
 )
 
 func getPluginsContent(pluginsPath, entryUrl string, doc *goquery.Document) string {
-	log.Printf(`plugins Path %s`, pluginsPath)
+
 	if pluginsPath == "" {
+		log.Printf(`error !!! plugins path is emtpy error`)
 		return ""
 	}
 	p, err := plugin.Open(pluginsPath)
